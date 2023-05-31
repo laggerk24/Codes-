@@ -1,4 +1,10 @@
-print("Hello World")
-def Adder(a,b):
-    return a+b
-print(Adder(4,5))
+def reverse_list(l):
+    tempeorary = []
+    i = len(l)-1
+    while i>=0:
+        tempeorary.append(l[i])
+        i -= 1
+    return temp
+print(reverse_list([1,2,4,5,6,7,8]))
+
+
